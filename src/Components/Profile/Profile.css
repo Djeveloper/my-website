@@ -1,0 +1,11 @@
+.Profile {
+  background-color: #596661;
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+}
+
+.Profile img {
+  border-radius: 50%;
+  width: 200px;
+}
