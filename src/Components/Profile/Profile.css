@@ -3,9 +3,21 @@
   text-align: center;
   color: white;
   padding: 20px 0;
+  width: 100%;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 5px;
 }
 
 .Profile img {
   border-radius: 50%;
   width: 200px;
+  border: 2px solid white;
+}
+
+.Profile h2 {
+  font-size: 30px;
+}
+
+.Profile p {
+  font-size: 20px;
 }
