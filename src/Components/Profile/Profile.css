@@ -6,6 +6,8 @@
   width: 100%;
   box-shadow: 10px 5px 5px black;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
 }
 
 .Profile img {
@@ -16,8 +18,16 @@
 
 .Profile h2 {
   font-size: 30px;
+  letter-spacing: 6px;
 }
 
 .Profile p {
   font-size: 20px;
+}
+
+@media (max-width: 720px) {
+  .Profile {
+    flex-direction: column;
+    align-items: center;
+  }
 }
