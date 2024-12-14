@@ -1,13 +1,11 @@
-import Profile from "./Components/Profile/Profile";
-import Content from "./Components/Content/Content";
+import CryptoInfo from './Components/CryptoInfo/CryptoInfo.jsx';
 
 import "./App.css";
 
 function App() {
   return (
-    <div class="Root">
-      <Profile />
-      <Content />
+    <div>
+      <CryptoInfo />
     </div>
   );
 }
